@@ -23,12 +23,12 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.128.0
-      HUGO_THEME: 主题 # 替换为你的主题名称
+      HUGO_THEME: noteworthy
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive # 确保克隆主题
+          submodules: recursive
 
       - name: Install Hugo CLI
         run: |
