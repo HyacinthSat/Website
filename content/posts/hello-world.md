@@ -1,34 +1,30 @@
 ---
-author: "ChatGPT"
-title: "Hello World"
-date: 2025-04-03
-description: "Testing out the new Hugo theme"
+author: "Hugo Authors"
+title: "Emoji Support"
+date: "2019-12-03"
+description: "Guide to emoji usage in Hugo"
 tags: [
-    "example", 
-    "hello",
+    "emoji",
 ]
 ---
+Emoji can be enabled in a Hugo project in a number of ways.
 
-# Hello, World!
+The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
 
-这是一个简单的 "Hello World" 示例文章，展示如何在 Hugo 中使用 Markdown 编写文章。
+To enable emoji globally, set `enableEmoji` to `true` in your site’s [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
 
-## 欢迎来到 Hugo！
 
-Hugo 是一个快速的静态站点生成器，适合博客和其他类型的网站。通过它，你可以轻松地管理你的内容和生成网页。
+<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
+<br>
 
-### 数学公式展示
+The [Emoji cheat sheet](https://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
 
-这是一个数学公式的示例：
+***
 
-$$
-E = mc^2
-$$
+**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
 
-你可以通过类似的方式在文章中插入 LaTeX 公式。
-
-### 结语
-
-Hugo 是一个强大且灵活的工具，适合各种类型的网站构建。希望你喜欢它！
-
----
+{{< highlight html >}}
+.emoji {
+font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
+}
+{{< /highlight >}}
