@@ -67,4 +67,19 @@ This is the first test article after using this topic. I noticed that it seems t
 - 电源分系统
 
 ## 其他  
-有待测试。  
+### 代码块：  
+`print(Hello, World!)`
+
+```
+#include <stdio.h>
+int main()
+{
+   printf("Hello, World!");
+   return 0;
+}
+```
+
+### 公式：  
+$E = MC^2$  
+
+其他仍有待测试。  
