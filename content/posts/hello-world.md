@@ -1,30 +1,31 @@
 ---
-author: "Hugo Authors"
-title: "Emoji Support"
-date: "2019-12-03"
-description: "Guide to emoji usage in Hugo"
-tags: [
-    "emoji",
-]
+author: "BG7ZDQ"
+title: "Exploring Hugo: A Static Site Generator"
+date: "2025-04-03"
+description: "A guide to using Hugo for building static websites"
+tags: ["Hugo", "static site", "tutorial"]
+categories: ["web development", "tutorial"]
+draft: false
 ---
-Emoji can be enabled in a Hugo project in a number of ways.
 
-The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
+# Exploring Hugo: A Static Site Generator
 
-To enable emoji globally, set `enableEmoji` to `true` in your site’s [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
+Hugo is a popular static site generator (SSG) that allows developers to create fast, flexible, and customizable websites. In this article, we'll explore the features of Hugo and how to get started building your own static website.
 
+## What is Hugo?
 
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br>
+Hugo is an open-source SSG built in Go, designed for speed and ease of use. It generates static HTML files from Markdown, making it an excellent choice for personal blogs, portfolios, documentation, and even larger websites.
 
-The [Emoji cheat sheet](https://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+### Key Features of Hugo
 
-***
+- **Speed**: Hugo is extremely fast, capable of building thousands of pages in seconds.
+- **Flexibility**: It supports various content types and customization options through themes and templates.
+- **Easy Setup**: Getting started with Hugo is straightforward, and the tool integrates well with version control systems like Git.
 
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
+## Installation
 
-{{< highlight html >}}
-.emoji {
-font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
-}
-{{< /highlight >}}
+To install Hugo, follow these steps:
+
+### On macOS
+```bash
+brew install hugo
