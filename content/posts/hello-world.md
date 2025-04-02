@@ -13,3 +13,7 @@ This is the first test article after using this topic. I noticed that it seems t
 
 ## 中文字符测试  
 这是使用该主题后的第一篇测试文章。我注意到它似乎存在一些问题，计划将通过本篇文章进行测试。
+
+## 分隔符测试  
+使用连续三个或多个星号“*”、破折号“-”、下划线“_”即可创建一条下划线。  
+***
