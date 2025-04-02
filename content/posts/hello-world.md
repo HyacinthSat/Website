@@ -1,15 +1,24 @@
 ---
-author: "Hugo Authors"
-title: "Markdown Syntax"
-date: "2020-01-24"
-description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+author: "BG7ZDQ"
+title: "Hello World!"
+date: "2025-04-03"
+description: "这是一篇测试文章。"
 tags: [
-    "markdown",
-    "css",
-    "html",
-    "themes",
+    "test",
 ]
 
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+## 介绍  
+这是使用该主题后的第一篇测试文章。我注意到它似乎存在一些问题，计划将通过本篇文章进行测试。  
+
+********
+
+## 表格  
+
+| 头部1   | 头部2   | 头部3   |
+| ------- | ------- | ------- |
+| 单元格1 | 单元格2 | 单元格3 |
+| 单元格4 | 单元格5 | 单元格6 |
+
+希望文章能够正常显示。
