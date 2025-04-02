@@ -50,6 +50,10 @@ jobs:
             echo "No npm dependencies found, skipping..."
           fi
 
+      - name: Create CNAME file  # 新增步骤
+        run: |
+          echo "hyacinth.satellites.ac.cn" > ./static/CNAME
+
       - name: Verify Hugo Installation
         run: hugo version
 
@@ -58,7 +62,7 @@ jobs:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
         run: |
-          hugo --minify --theme $HUGO_THEME --baseURL "${{ github.event.repository.html_url }}/"
+          hugo --minify --theme $HUGO_THEME --baseURL "https://hyacinth.satellites.ac.cn/"  # 修正 baseURL
 
       - name: Debug Public Directory
         run: ls -lah ./public
