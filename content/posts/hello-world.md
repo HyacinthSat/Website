@@ -17,3 +17,9 @@ This is the first test article after using this topic. I noticed that it seems t
 ## 分隔符测试  
 使用连续三个或多个星号“*”、破折号“-”、下划线“_”即可创建一条下划线。  
 ***
+## 表格测试  
+
+| 头部1   | 头部2   | 头部3   |
+| ------- | ------- | ------- |
+| 单元格1 | 单元格2 | 单元格3 |
+| 单元格4 | 单元格5 | 单元格6 |
