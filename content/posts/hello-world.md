@@ -34,10 +34,15 @@ This is the first test article after using this topic. I noticed that it seems t
 ## 强调语法测试
 **琪露诺**是住在*红魔馆*四周的雾之湖的***冰之妖精***，是~~笨蛋~~湖附近妖精们的领袖。
 
-++插入文本++  
-==标记文本==  
-下标H~2~O  
-上标1^st^  
+缩写词：<abbr title="Graphics Interchange Format">GIF</abbr>是一种图像格式。  
+
+下标：H<sub>2</sub>O
+
+上标：X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
+
+键盘输入：按 <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd>结束会话。
+
+高亮文本：<mark>笨蛋</mark>
 
 ## 引用语法测试
 > ○湖上的冰精  
@@ -47,12 +52,19 @@ This is the first test article after using this topic. I noticed that it seems t
 > 
 > 脑袋有些笨笨的。不过她本来就是个孩子而已。  
 > 对灵梦和魔理沙来说，这种程度的妖怪算不了什么。
+>  — <cite>东方红魔乡 设定文档[^1]</cite>
 
-> ○冰之妖怪  
+[^1]: [东方红魔乡 设定文档](https://www.thpatch.net/wiki/Th06/omake.txt)
+
+> ○１面中BOSS　湖的冰精  
 > 琪露诺  
+> Cirno  
 > ……  
-> 不论夏天还是冬天琪露诺都会放出冷气，所以琪露诺的周围很冷。  
-> 当然春天也冷。秋天也一样。  
+> 居住于雾之湖的妖精。  
+> 基本上和杂鱼水平没什么大区别。  
+>  — <cite>东方辉针城 设定文档[^2]</cite>
+
+[^2]: [东方辉针城 设定文档](https://www.thpatch.net/wiki/Th14/omake.txt)  
 
 ## 列表语法  
 有序列表：  
@@ -72,9 +84,10 @@ This is the first test article after using this topic. I noticed that it seems t
 - 电源分系统
 
 ## 其他  
-### 代码块：  
-`print(Hello, World!)`
+### 行内代码  
+bash:`sudo rm -rf /*`  
 
+### 代码块：  
 ```
 #include <stdio.h>
 int main()
