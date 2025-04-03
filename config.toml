@@ -17,29 +17,8 @@ disqusShortname = ""
 [author]
   name = "BG7ZDQ"
 
-[markup]
-  [markup.goldmark]
-    duplicateResourceFiles = false
-    [markup.goldmark.extensions]
-      definitionList = true
-      footnote = true
-      linkify = true
-      linkifyProtocol = 'https'
-      strikethrough = true
-      table = true
-      taskList = true
-    [markup.goldmark.parser]
-      autoDefinitionTermID = false
-      autoHeadingID = true
-      autoIDType = 'github'
-      wrapStandAloneImageWithinParagraph = true
-      [markup.goldmark.parser.attribute]
-        block = false
-        title = true
-    [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = true
-      xhtml = false
+[markup.goldmark.renderer]
+  unsafe = true
 
 [params]
   math = true
