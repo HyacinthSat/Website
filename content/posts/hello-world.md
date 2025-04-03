@@ -47,22 +47,21 @@ This is the first test article after using this topic. I noticed that it seems t
 ## 引用语法测试
 > ○湖上的冰精  
 > 琪露诺  
-> 能力：操纵冷气程度的能力  
 > ……  
-> 
+>   
 > 脑袋有些笨笨的。不过她本来就是个孩子而已。  
-> 对灵梦和魔理沙来说，这种程度的妖怪算不了什么。
->  — <cite>东方红魔乡 设定文档[^1]</cite>
+> 对灵梦和魔理沙来说，这种程度的妖怪算不了什么。  
+> — <cite>东方红魔乡 设定文档[^1]</cite>
 
 [^1]: [东方红魔乡 设定文档](https://www.thpatch.net/wiki/Th06/omake.txt)
 
 > ○１面中BOSS　湖的冰精  
 > 琪露诺  
-> Cirno  
 > ……  
+>   
 > 居住于雾之湖的妖精。  
 > 基本上和杂鱼水平没什么大区别。  
->  — <cite>东方辉针城 设定文档[^2]</cite>
+> — <cite>东方辉针城 设定文档[^2]</cite>
 
 [^2]: [东方辉针城 设定文档](https://www.thpatch.net/wiki/Th14/omake.txt)  
 
