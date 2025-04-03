@@ -20,6 +20,10 @@ disqusShortname = ""
 [markup.goldmark.renderer]
   unsafe = true
 
+[markup]
+  [markup.mmark]
+    enabled = true
+
 [params]
   math = true
   description = "HyacinthSat: Space is Closer Than You Think."
