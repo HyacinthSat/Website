@@ -1,5 +1,5 @@
 baseURL = "https://hyacinth.satellites.ac.cn/"
-languageCode = "zh-CN"
+languageCode = "en-US"
 title = "风信子卫星 | HyacinthSat"
 theme = "noteworthy"
 enableRobotsTXT = true
