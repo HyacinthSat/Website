@@ -1,6 +1,6 @@
 baseURL = "https://hyacinth.satellites.ac.cn/"
 languageCode = "zh-CN"
-title = "Noteworthy"
+title = "风信子卫星 | HyacinthSat"
 theme = "noteworthy"
 enableRobotsTXT = true
 summaryLength = 10
@@ -22,7 +22,7 @@ disqusShortname = ""
 
 [params]
   math = true
-  description = "Noteworthy is a minimalist Hugo theme, perfect for writers and bloggers."
+  description = "HyacinthSat: Space is Closer Than You Think."
   showReadMore = true
   email = "contact@satellites.ac.cn"
   twitter = "https://twitter.com/Hyacinth_Sat"
