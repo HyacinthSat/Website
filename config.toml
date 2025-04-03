@@ -43,7 +43,7 @@ disqusShortname = ""
 
 [params]
   math = true
-  description = "HyacinthSat: Space is Closer Than You Think."
+  description = "Space is Closer Than You Think."
   showReadMore = true
   email = "contact@satellites.ac.cn"
   twitter = "https://twitter.com/Hyacinth_Sat"
